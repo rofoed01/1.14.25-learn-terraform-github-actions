@@ -1,6 +1,6 @@
 resource "aws_launch_template" "tacoTuesday-LT-80" {
   name_prefix   = "tacoTuesday-LT-80"
-  image_id      = "ami-046b5b8111c19b3ac"  
+  image_id      = "ami-046b5b8111c19b3ac"
   instance_type = "t2.micro"
 
   key_name = "MyLinuxBox"
@@ -74,7 +74,7 @@ resource "aws_launch_template" "tacoTuesday-LT-80" {
 
 resource "aws_launch_template" "tacoTuesday-LT-443" {
   name_prefix   = "tacoTuesday-LT-443"
-  image_id      = "ami-046b5b8111c19b3ac"  
+  image_id      = "ami-046b5b8111c19b3ac"
   instance_type = "t2.micro"
 
   key_name = "MyLinuxBox"

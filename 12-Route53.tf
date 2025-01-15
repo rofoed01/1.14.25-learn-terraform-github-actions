@@ -1,6 +1,6 @@
 
 data "aws_route53_zone" "main" {
-  name         = "bomboclaat.click"  # The domain name you want to look up
+  name         = "bomboclaat.click" # The domain name you want to look up
   private_zone = false
 }
 

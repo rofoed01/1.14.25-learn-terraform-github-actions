@@ -46,7 +46,7 @@ resource "aws_security_group" "tacoTuesday-LB01-SG01" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
-ingress {
+  ingress {
     description = "Secure"
     from_port   = 443
     to_port     = 443
@@ -84,7 +84,7 @@ resource "aws_security_group" "tacoTuesday-TG02-SG01-443" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
-ingress {
+  ingress {
     description = "Secure"
     from_port   = 443
     to_port     = 443

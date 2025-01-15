@@ -9,12 +9,12 @@ terraform {
       version = "~> 3.0"
     }
   }
-  cloud { 
-    
-    organization = "TacoTuesday-RobO" 
+  cloud {
 
-    workspaces { 
-      name = "fullBodyCastTheo" 
-    } 
-  } 
+    organization = "TacoTuesday-RobO"
+
+    workspaces {
+      name = "fullBodyCastTheo"
+    }
+  }
 }

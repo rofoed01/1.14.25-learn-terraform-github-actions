@@ -1,8 +1,8 @@
 resource "aws_lb_target_group" "tacoTuesday_tg_80" {
-  name     = "tacoTuesday-target-group"
-  port     = 80
-  protocol = "HTTP"
-  vpc_id   = aws_vpc.tacoTuesday.id
+  name        = "tacoTuesday-target-group"
+  port        = 80
+  protocol    = "HTTP"
+  vpc_id      = aws_vpc.tacoTuesday.id
   target_type = "instance"
 
   health_check {
@@ -25,10 +25,10 @@ resource "aws_lb_target_group" "tacoTuesday_tg_80" {
 }
 
 resource "aws_lb_target_group" "tacoTuesday_tg_443" {
-  name     = "tacoTuesdaytg443"
-  port     = 80
-  protocol = "HTTP"
-  vpc_id   = aws_vpc.tacoTuesday.id
+  name        = "tacoTuesdaytg443"
+  port        = 80
+  protocol    = "HTTP"
+  vpc_id      = aws_vpc.tacoTuesday.id
   target_type = "instance"
 
   health_check {
